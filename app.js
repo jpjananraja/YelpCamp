@@ -19,7 +19,10 @@ var indexRoutes = require("./routes/index");
 
 
 
-mongoose.connect("mongodb://localhost/yelp_camp_v4");
+// mongoose.connect("mongodb://localhost/yelp_camp_v4"); //SINCE WE ARE HOSTING THIS APP ON HEROKU A LOCAL HOST WILL NOT SUFFICE
+
+ mongoose.connect("mongodb://joseph:dredget56@ds011419.mlab.com:11419/joecamp");
+
 
 // var campgrounds = [
 //         {name: "Salmon Creek", image: "https://farm8.staticflickr.com/7503/15623542806_8058899c7d.jpg"},
